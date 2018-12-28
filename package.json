@@ -2,8 +2,8 @@
   "name": "shell",
   "version": "1.0.0",
   "main": "syncdemo.sh",
-  "scripts": {
-    "syncdemo": "./syncdemo.sh",
+  "bin": {
+    "syncdemo": "./syncdemo.sh"
   },
   "author": "cnt1992",
 }
