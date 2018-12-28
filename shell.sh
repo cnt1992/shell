@@ -10,9 +10,6 @@ git merge $BRANCH_NAME demo
 mv ./storybook-static/* .
 
 git add .
-git commit -m "chore: 更新demo"
+git commit --no-verify -m "chore: 更新demo"
 git push origin demo -f
 git checkout $BRANCH_NAME
-
-# 用谷歌浏览器打开demo页面
-open -a /Applications/Google\ Chrome.app http://groups.alidemo.cn/UFORM/rs-antd-uform/
