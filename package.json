@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "syncdemo.sh",
   "bin": {
-    "syncdemo": "./syncdemo.sh"
+    "shell": "./shell.sh"
   },
   "author": "cnt1992"
 }
