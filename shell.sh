@@ -5,7 +5,7 @@ BRANCH_NAME=`git rev-parse --abbrev-ref HEAD`
 
 git fetch
 git checkout demo || git checkout -b demo
-git merge $BRANCH_NAME demo
+git merge $BRANCH_NAME demo --no-commit
 
 mv ./storybook-static/* .
 
